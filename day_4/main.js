@@ -1,7 +1,6 @@
 alert('Tente adivinhar o número de 1 a 10 que estou pensando.');
-/////////////////////////////////////////////////////////////////
-let numeroX = Math.floor(Math.random() * (10 - 1 + 1) + 1)
 //const numeroX = 7;
+let numeroX = Math.floor(Math.random() * (10 - 1 + 1) + 1)
 let tentativasMax = 3;
 let resposta = "";
 let acertou = false;
